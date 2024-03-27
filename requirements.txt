@@ -1,0 +1,4 @@
+openai==0.27.8
+tqdm
+transformers==4.33.2
+github

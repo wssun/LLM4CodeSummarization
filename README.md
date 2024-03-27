@@ -1,6 +1,11 @@
 # LLM4CodeSummarization
 Code for 《Source Code Summarization in the Era of Large Language Models》
 
+## Environment
+Our experiment runs with Python 3.7 and Pytorch 1.6.0.
+
+Other packages required can be installed with ```pip install -r requirements.txt```.
+
 ## Datasets
 
 The datasets used in our experiments can be found [here](https://drive.google.com/drive/folders/1ge5S6pmQLdE2-zCNsg9WCZ1PNXMRpDI5?usp=sharing).
