@@ -6,6 +6,10 @@ Code for 《Source Code Summarization in the Era of Large Language Models》
 The datasets used in our experiments can be found here.
 
 ### Build Erlang, Haskell and Prolog Dataset
+Code for building Erlang, Haskell and Prolog Dataset is in the dataset directory.
+```
+cd ./dataset
+```
 
 1. Crawl data from Github
 ```
@@ -36,4 +40,6 @@ python beautify.py
 python evaluate.py
 ```
 
+## Results
+Results of our experiment can be found here.
 
