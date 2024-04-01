@@ -46,5 +46,10 @@ python evaluate.py
 ```
 
 ## Results
-Results of our experiment can be found [here](https://drive.google.com/drive/folders/1SJFyc40hJL0QJ9Rl3u8QYFfac7-bQT7w?usp=sharing).
+For each RQ, LLMs' response (```.csv```) and the comment (```.txt```) extracted from the response can be found [here](https://drive.google.com/drive/folders/1SJFyc40hJL0QJ9Rl3u8QYFfac7-bQT7w?usp=sharing).
+
+
+## Figures
+The directory ```./figures``` contrains examples of five prompting techniques (zero-shot, few-shot, chain-of-thought, critique, expert)
+, which are not presented in the paper due to page limit.
 
