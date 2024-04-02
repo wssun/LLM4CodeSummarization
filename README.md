@@ -52,4 +52,3 @@ For each RQ, LLMs' response (```.csv```) and the comment (```.txt```) extracted 
 ## Figures
 The directory ```./figures``` contrains examples of five prompting techniques (zero-shot, few-shot, chain-of-thought, critique, expert)
 , which are not presented in the paper due to page limit.
-

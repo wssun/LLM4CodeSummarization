@@ -253,8 +253,8 @@ def main():
     # load model
     MODEL_NAME_OR_PATH = {'gpt-4':'gpt-4-1106-preview',
                           'gpt-3.5':'gpt-3.5-turbo',
-                          'starchat': '/home/david/MY/llm/starchat',
-                         'codellama':'/home/david/MY/codellama/CodeLlama-7b-Instruct-hf',
+                          'starchat': '/home/xxx/llm/starchat',
+                         'codellama':'/home/xxx/codellama/CodeLlama-7b-Instruct-hf',
                           }
     args.model_name_or_path = MODEL_NAME_OR_PATH[args.model]
     if args.model == 'gpt-4':
@@ -291,7 +291,4 @@ def main():
 
 
 if __name__ == '__main__':
-    os.environ["http_proxy"] = "http://127.0.0.1:10809"
-    os.environ["https_proxy"] = "http://127.0.0.1:10809"
-
     main()
