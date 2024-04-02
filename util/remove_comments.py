@@ -13,7 +13,7 @@ multi = {'java': ['/*', '*/'], 'python': ['"""','"""','/*','*/'], 'c': ['/*', '*
           'php': ['/*', '*/'],
           'erlang': [] , 'haskell': ['{-','-}'], 'prolog': []}
 
-def remove_comments_and_docstrings(source, lang):  #  support Python, Java, C, Ruby
+def remove_comments_and_docstrings(source, lang):
     if lang in ['python']:
         """
         Returns "source" minus comments and docstrings.
