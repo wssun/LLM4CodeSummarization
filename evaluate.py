@@ -136,7 +136,7 @@ def compare_human_eval_and_gpt_eval():
 
 
 def gpt_eval(directory, language, technique, temperature, cnt=0, baseline=False, top_p=1.0):
-    dir_eval=directory+'gpt-eval\\'
+    dir_eval=directory+'llm-eval\\'
     dir_result=directory+'codesum\\'
     if language in ['what','why','done','usage','property']:
         lang='java'
@@ -172,8 +172,8 @@ def gpt_eval(directory, language, technique, temperature, cnt=0, baseline=False,
     if baseline:
         models = ['gpt-4', 'gpt-3.5', 'starchat', 'codellama', 'codet5']
     else:
-        # models = ['gpt-4', 'gpt-3.5', 'starchat', 'codellama']
-        models = ['codellama', 'starchat', 'gpt-3.5', 'gpt-4']
+        models = ['gpt-4', 'gpt-3.5', 'starchat', 'codellama']
+        # models = ['codellama', 'starchat', 'gpt-3.5', 'gpt-4']
 
     for model in models:
         path = dir_result+f'{language}\{model}\{temperature}\{top_p}\{technique}.txt'
