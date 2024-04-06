@@ -132,11 +132,11 @@ def compare_human_eval_and_gpt_eval():
                     output.append(comment)
         comments.append(output)
 
-    evaluate(code, comments, f'.\\user_result\\{language}_{LLM}.csv',0)
+    evaluate(code, comments, f'.\\RQ1\\{language}_{LLM}.csv',0)
 
 
 def gpt_eval(directory, language, technique, temperature, cnt=0, baseline=False, top_p=1.0):
-    dir_eval=directory+'llm-eval\\'
+    dir_eval=directory+'gpt-eval\\'
     dir_result=directory+'codesum\\'
     if language in ['what','why','done','usage','property']:
         lang='java'
