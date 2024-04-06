@@ -58,7 +58,7 @@ We upload the results in our experiment [here](https://drive.google.com/drive/fo
 
 2. ```gpt-eval``` directory contains GPT-4's evaluation scores in RQ2-RQ5
 
-3. ```RQ1``` directory contains evaluation scores of each metric in RQ1
+3. ```RQ1``` directory contains human evaluation scores and evaluation scores of each metric in RQ1
 
 ## Figures
 The directory ```./figures``` contrains examples of five prompting techniques (zero-shot, few-shot, chain-of-thought, critique, expert)
