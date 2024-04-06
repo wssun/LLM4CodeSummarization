@@ -8,7 +8,7 @@ Other packages required can be installed with ```pip install -r requirements.txt
 
 ## Datasets
 
-The datasets used in our experiments can be found [here](https://drive.google.com/drive/folders/1ge5S6pmQLdE2-zCNsg9WCZ1PNXMRpDI5?usp=sharing).
+The datasets used in our experiments can be found [here](https://drive.google.com/drive/folders/1ge5S6pmQLdE2-zCNsg9WCZ1PNXMRpDI5?usp=sharing), including human evaluation datasets.
 
 ### Build Erlang, Haskell and Prolog Dataset
 Code for building Erlang, Haskell and Prolog Dataset is in the dataset directory.
@@ -46,7 +46,7 @@ python beautify.py
 python evaluate.py
 ```
 
-2. Evaluate with LLMs on the human evaluation dataset (used for RQ1). File ```human_eval_record_{language}``` can be found [here](https://drive.google.com/drive/folders/1pu4V7q7YZxvorf_xa6ha2GlkbDDv72wb?usp=sharing).
+2. Evaluate with LLMs on the human evaluation dataset (used for RQ1). File ```human_eval_record_{language}.csv``` can be found [here](https://drive.google.com/drive/folders/1pu4V7q7YZxvorf_xa6ha2GlkbDDv72wb?usp=sharing).
 ```
 python llm-eval.py
 ```
@@ -56,9 +56,9 @@ We upload the results in our experiment [here](https://drive.google.com/drive/fo
 
 1. ```codesum``` directory contains LLMs' response (```.csv```) and the comment (```.txt```) extracted from the response
 
-2. ```gpt-eval``` directory contains GPT-4's evaluation score in RQ2-RQ5
+2. ```gpt-eval``` directory contains GPT-4's evaluation scores in RQ2-RQ5
 
-3. ```RQ1``` directory contains evaluation scores in RQ1
+3. ```RQ1``` directory contains evaluation scores of each metric in RQ1
 
 ## Figures
 The directory ```./figures``` contrains examples of five prompting techniques (zero-shot, few-shot, chain-of-thought, critique, expert)
